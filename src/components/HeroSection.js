@@ -14,9 +14,9 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
-          redirect='/services'
+          redirect='/gallery'
         >
-          SERVICES
+          GALLERY
         </Button>
         <Button
           className='btns'

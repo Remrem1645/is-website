@@ -6,7 +6,7 @@
 }
 
 .home,
-.Services,
+.Gallery,
 .Locations,
 .Contact {
   display: flex;
@@ -16,17 +16,17 @@
   font-size: 3rem;
 } 
 
-.Services {
-  background-image: url("/public/images/2.jpg") ;
-  background-position: center;
+.Gallery {
+/*   background-image: url("/public/images/2.jpg") ;
+ */  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 100px;
   height: 100vh;
   width: 100%;
-  text-shadow: 2px 2px black;
-}
+/*   text-shadow: 2px 2px black;
+ */}
 
 .Locations {
 /*  background-image: url('/public/images/2.jpg');
