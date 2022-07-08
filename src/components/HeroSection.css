@@ -16,6 +16,8 @@ video {
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
+    text-shadow: 2px 2px black;
+
 }
 
 .hero-container>h1 {
@@ -43,6 +45,13 @@ video {
 .fa-play-circle {
     margin-left: 4px;
 }
+
+.hero-company-name{
+    word-spacing: 10px;
+
+/*     font-family: 'Smooch', cursive;
+ */}
+
 
 @media screen and (max-width: 960px) {
     .hero-container>h1 {

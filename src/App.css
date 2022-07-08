@@ -2,14 +2,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Arial', sans-serif;
 }
 
-
 .home,
-.services,
-.products,
-.sign-up {
+.Services,
+.Locations,
+.Contact {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -17,29 +16,40 @@
   font-size: 3rem;
 } 
 
-.services {
-/*   background-image: url('/images/img-2.jpg');
- */  background-position: center;
+.Services {
+  background-image: url("/public/images/2.jpg") ;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  height: 100vh;
+  width: 100%;
+  text-shadow: 2px 2px black;
+}
+
+.Locations {
+/*  background-image: url('/public/images/2.jpg');
+  background-position: center; */
+  background-color: #242222;
+  background-size: auto;
+  color: rgb(0, 0, 0);
   font-size: 100px;
 }
 
-.products {
-/*   background-image: url('/images/img-1.jpg');
- */  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.sign-up {
+.Contact {
 /*   background-image: url('/images/img-8.jpg');
  */  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 100px;
+}
+
+iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;    
 }

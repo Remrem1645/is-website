@@ -1,15 +1,20 @@
 import React from 'react'
-import './Cards.css';
 import CardItem from './CardItem';
+import './Cards.css';
 
 function Cards() {
     return(
         <div className='cards'>
-            <h1>Check out these pictures</h1>
+            <h1 className='title'>Check out these pictures</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul>
-                        <CardItem />
+                        <CardItem 
+                        src = 'images/1.jpg'
+                        text = 'Our Location'
+                        label ='Location'
+                        path='/locations'
+                        />
                     </ul>
                 </div>
             </div>

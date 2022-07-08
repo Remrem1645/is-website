@@ -7,22 +7,24 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       {/* <video src=''autoPlay loop muted /> */}
-      <h1>Is Beauty Lash Salon</h1>
+      <h1 className='hero-company-name'>IS Beauty Lash Salon</h1>
       <p>Eyelash Service</p>
       <div className='hero-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          redirect='/services'
         >
-          CONTACT US
+          SERVICES
         </Button>
         <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          redirect='/locations'
         >
-          MORE INFO
+          LOCATION
         </Button>
       </div>
     </div>
