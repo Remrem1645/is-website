@@ -18,12 +18,14 @@
 
 .Gallery {
 /*   background-image: url("/public/images/2.jpg") ;
- */  background-position: center;
+ */  
+  background-color: #242222;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 100px;
-  height: 100vh;
+  height: 20vh;
   width: 100%;
 /*   text-shadow: 2px 2px black;
  */}
@@ -35,6 +37,7 @@
   background-size: auto;
   color: rgb(0, 0, 0);
   font-size: 100px;
+  height: 100vh;
 }
 
 .Contact {
