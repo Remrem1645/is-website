@@ -28,7 +28,7 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo'>
-                        Logo  <i className='fab fa-typo3' />
+                        <img src='/images/logo.png' alt='' width="70" height="60" />  
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

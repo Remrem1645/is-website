@@ -6,8 +6,21 @@ video {
     z-index: -1;
 }
 
+.bg{
+    background: url("/public/images/bg.png") center center/cover no-repeat; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .hero-container {
-    background: url("/public/images/o.jpg") center center/cover no-repeat; 
+/*     background: url("/public/images/bg.png") center center/cover no-repeat; 
+ */    
+    background: url("/public/images/bg.png") center center/cover no-repeat; 
+    background-color: #161616;
+    background-position: center;
     height: 100vh;
     width: 100%;
     display: flex;
