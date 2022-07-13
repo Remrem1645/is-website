@@ -12,13 +12,13 @@
     height: 40%;
     width: 100%;
     text-align: center;
-    color: white;
+    color: #ffd368;
     font-size: 55%;
     line-height: 65px;
 
 }
 .location-link-para{
-    color: #fff;
+    color: #ffd368;
     align-items: center;
     height: 100%;    
     line-height: 10mm;
@@ -26,7 +26,7 @@
 
 .location-link{
     font-size: 45%;
-    color: #fff;
+    color: #ffd368;
     align-items: center;
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -34,7 +34,7 @@
 }
 
 .location-link:hover{
-    border-bottom: 4px solid #fff;
+    border-bottom: 4px solid #ffd368;
     transition: all 0.2s ease-out;
 }
 

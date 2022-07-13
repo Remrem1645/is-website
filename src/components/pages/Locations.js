@@ -1,7 +1,6 @@
 import React from 'react'
 import '../../App.css'
 import './Location.css'
-import { Link } from 'react-router-dom'
 
 
 
@@ -20,7 +19,7 @@ function Locations() {
             <div className='location-text'>
                 <p>OUR LOCATION</p>
                 <p className='location-link-para'>
-                    <a href="https://www.google.com/maps/place/4808+Baldwin+Ave,+Temple+City,+CA+91780/@34.091079,-118.0508095,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2da6951f72fbb:0xae17365d6d18b47f!8m2!3d34.0910746!4d-118.0486155" className='location-link' target="_blank">
+                    <a href="https://www.google.com/maps/place/4808+Baldwin+Ave,+Temple+City,+CA+91780/@34.091079,-118.0508095,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2da6951f72fbb:0xae17365d6d18b47f!8m2!3d34.0910746!4d-118.0486155" className='location-link' target="_blank" rel="noreferrer">
                         4808 Baldwin Ave Ste 103 Temple City, CA 91780
                     </a>
                 </p>

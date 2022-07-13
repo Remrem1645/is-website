@@ -30,7 +30,6 @@ function Services() {
                     <img width="100%" src="https://picsum.photos/800/600?random=3" alt=''/>
                 </Carousel.Item>
             </Carousel>
-
         </div>
     )
 }
