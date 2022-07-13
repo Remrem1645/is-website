@@ -1,35 +1,59 @@
 import React from 'react'
-import Carousel from 'better-react-carousel'
 import '../../App.css'
 import '../pages/Gallery.css'
+import ImageGallery from 'react-image-gallery';
+
+
+const images = [
+    {
+      original: 'https://s3-media0.fl.yelpcdn.com/bphoto/-KzsSeqVLb7WCwY8jVsDDA/o.jpg',
+      thumbnail: 'https://s3-media0.fl.yelpcdn.com/bphoto/-KzsSeqVLb7WCwY8jVsDDA/o.jpg',
+    },
+    {
+      original: 'https://s3-media0.fl.yelpcdn.com/bphoto/fZqo8g0XGJc7n-4K76Ubig/o.jpg',
+      thumbnail: 'https://s3-media0.fl.yelpcdn.com/bphoto/fZqo8g0XGJc7n-4K76Ubig/o.jpg',
+    },
+    {
+      original: 'https://s3-media0.fl.yelpcdn.com/bphoto/XVNHBMfnxnyOSjv3ojlgwg/o.jpg',
+      thumbnail: 'https://s3-media0.fl.yelpcdn.com/bphoto/XVNHBMfnxnyOSjv3ojlgwg/o.jpg',
+    },
+    {
+        original: 'https://s3-media0.fl.yelpcdn.com/bphoto/Bbm2CLyZ-y73sHhhPo09Lw/o.jpg',
+        thumbnail: 'https://s3-media0.fl.yelpcdn.com/bphoto/Bbm2CLyZ-y73sHhhPo09Lw/o.jpg',
+    },
+    {
+        original: 'https://s3-media0.fl.yelpcdn.com/bphoto/X37uoSmVcYf8hsif8E80wA/o.jpg',
+        thumbnail: 'https://s3-media0.fl.yelpcdn.com/bphoto/X37uoSmVcYf8hsif8E80wA/o.jpg',
+    },
+    {
+        original: 'https://s3-media0.fl.yelpcdn.com/bphoto/9Lms3cHOpn5Iotm8usEeNw/o.jpg',
+        thumbnail: 'https://s3-media0.fl.yelpcdn.com/bphoto/9Lms3cHOpn5Iotm8usEeNw/o.jpg',
+    },
+    {
+        original: 'https://s3-media0.fl.yelpcdn.com/bphoto/0nePbwWzNI10UBgzgGxCNA/o.jpg',
+        thumbnail: 'https://s3-media0.fl.yelpcdn.com/bphoto/0nePbwWzNI10UBgzgGxCNA/o.jpg',
+    },
+    {
+        original: 'https://s3-media0.fl.yelpcdn.com/bphoto/TAf_3jJnQzNQkR0bnsMDBw/o.jpg',
+        thumbnail: 'https://s3-media0.fl.yelpcdn.com/bphoto/TAf_3jJnQzNQkR0bnsMDBw/o.jpg',
+    },
+    {
+        original: 'https://s3-media0.fl.yelpcdn.com/bphoto/4bA2HJ-FAKYv0OKfYP7ODw/o.jpg',
+        thumbnail: 'https://s3-media0.fl.yelpcdn.com/bphoto/4bA2HJ-FAKYv0OKfYP7ODw/o.jpg',
+    },
+];
+
 
 
 function Services() {
+
+
     return (
         <div className='Gallerybackground'>
             <h1 className='Gallery'>
                 Gallery
             </h1>
-            <Carousel cols={2} rows={1} gap={10} loop={true} autoplay={2000} className='galleryphotos'>
-                <Carousel.Item>
-                    <img width="100%" src="https://picsum.photos/800/600?random=1" alt=''/>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img width="100%" src="https://picsum.photos/800/600?random=2" alt=''/>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img width="100%" src="https://picsum.photos/800/600?random=3" alt=''/>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img width="100%" src="https://picsum.photos/800/600?random=1" alt=''/>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img width="100%" src="https://picsum.photos/800/600?random=2" alt=''/>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img width="100%" src="https://picsum.photos/800/600?random=3" alt=''/>
-                </Carousel.Item>
-            </Carousel>
+            <ImageGallery items={images} className='galleryphotos' />;
         </div>
     )
 }

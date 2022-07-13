@@ -1,7 +1,20 @@
-.galleryphotos{
-    background-color: #242424;
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.image-gallery{
+    background-color: #181818;
+    height: 98vh;
+    
 }
 .Gallerybackground{
     background-color: #242424;
-    height: 100vh;
+    height: 130vh;
 }
+
+/* @media screen and (max-height: 1000px) {
+    .Gallerybackground{
+        background-color: #242424;
+        height: 140vh;
+    }
+
+} */
+
