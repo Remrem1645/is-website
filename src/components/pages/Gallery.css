@@ -2,19 +2,12 @@
 
 .image-gallery{
     background-color: #181818;
-    height: 98vh;
+    height: auto;
     
 }
 .Gallerybackground{
     background-color: #242424;
-    height: 130vh;
+    height: auto;
 }
 
-/* @media screen and (max-height: 1000px) {
-    .Gallerybackground{
-        background-color: #242424;
-        height: 140vh;
-    }
-
-} */
 

@@ -80,6 +80,13 @@ video {
     }
 }
 
+@media screen and (max-height: 700px) {
+    .hero-container {
+        height: auto;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
     .hero-container>h1 {
         font-size: 40px;
