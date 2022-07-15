@@ -61,6 +61,7 @@ video {
 }
 
 .hero-company-name{
+    text-align: center;
     word-spacing: 10px;
 /*     font-family: 'Smooch', cursive;
  */}
@@ -76,9 +77,17 @@ video {
         height: 345.088px;
         width: 389.12px;
         margin-bottom: 150px;
-
     }
 }
+
+@media screen and (max-width: 400px) {
+    .logoHeroSection{
+        height: 200px;
+        width: auto;
+        margin-bottom: 150px;
+    }
+}
+
 
 @media screen and (max-height: 700px) {
     .hero-container {
