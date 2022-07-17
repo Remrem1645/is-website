@@ -1,0 +1,43 @@
+.menu{
+    background-color: #242222;
+    height: 100vh;
+}
+
+
+.menu-section {
+    background-color: #242222;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 25px;
+}
+
+
+.menu-item-inactive{
+    display: none;
+}
+
+
+.menu-item-active{
+    font-style: italic;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.menu-title{
+    min-height: 10vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #ffd368;
+}
+
+.menu-section>h3{
+    font-size: 35px;
+    color: #ffd368;
+}

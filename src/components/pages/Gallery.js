@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../App.css'
 import '../pages/Gallery.css'
-import ImageGallery from 'react-image-gallery';
+import ImageGallery from 'react-image-gallery'
 
 
 const images = [
@@ -45,17 +45,12 @@ const images = [
 
 
 
-function Services() {
-
-
+function Gallery() {
     return (
         <div className='Gallerybackground'>
-            <h1 className='Gallery'>
-                Gallery
-            </h1>
-            <ImageGallery items={images} className='galleryphotos' />;
+            <ImageGallery items={images} className='galleryphotos' showThumbnails={false}/>;
         </div>
     )
 }
 
-export default Services;
+export default Gallery

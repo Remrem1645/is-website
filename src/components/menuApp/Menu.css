@@ -1,0 +1,12 @@
+.menu-item>h4{
+    color: #ffd368;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    max-width: 450px;
+    margin: 2rem auto;
+    align-items: center;
+    border-radius: 0.25rem;
+}

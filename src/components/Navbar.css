@@ -10,6 +10,7 @@
     z-index: 999;
 }
 
+
 .navbar-container {
     display: flex;
     justify-content: center;
@@ -17,6 +18,7 @@
     height: 80px;
     max-width: 1500px;
 }
+
 
 .navbar-logo {
     color: #fff;
@@ -29,25 +31,30 @@
     align-items: center;
 }
 
+
 .fa-typo3 {
     margin-left: 0.5rem;
     font-size: 1.8rem;
 }   
 
+
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(5, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 60vw;
+    width: 80vw;
     justify-content: end;
     margin-right: 1rem;
+    
 }
+
 
 .nav-item {
     height: 80px;
 }
+
 
 .nav-links {
     color: #ffd368;
@@ -58,27 +65,29 @@
     height: 100%;
 }
 
+
 .nav-links:hover {
     border-bottom: 4px solid #ffd368;
     transition: all 0.2s ease-out;
 }
 
+
 .fa-bars {
     color: #ffd368;
 }
 
-.nav-links-mobile {
-    display: none;
-}
 
+.nav-links-mobile,
 .menu-icon {
     display: none;
 }
+
 
 @media screen and (max-width: 960px) {
     .NavbarItems {
         position: relative;
     }
+
 
     .nav-menu {
         display: flex;
@@ -93,6 +102,7 @@
         justify-content: flex-start;
     }
 
+
     .nav-menu.active {
         background: #242222;
         left: 0;
@@ -102,6 +112,7 @@
         z-index: 1;
     }
 
+
     .nav-links {
         text-align: center;
         padding: 2rem;
@@ -109,11 +120,13 @@
         display: table;
     }
 
+
     .nav-links:hover {
         background-color: #ffd368;
         color: #242424;
         border-radius: 0;
     }
+
 
     .navbar-logo {
         position: absolute;
@@ -121,6 +134,7 @@
         left: 0;
         transform: translate(25%, 50%);
     }
+
 
     .menu-icon {
         display: block;
@@ -132,10 +146,12 @@
         cursor: pointer;
     }
 
+
     .fa-times {
         color: #ffd368;
         font-size: 2rem;
     }
+
 
     .nav-links-mobile {
         display: block;
@@ -151,6 +167,7 @@
         border: 1px solid #ffd368;
         transition: all 0.3s ease-out;
     }
+
 
     .nav-links-mobile:hover {
         background: #ffd368;

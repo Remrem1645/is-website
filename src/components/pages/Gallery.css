@@ -1,10 +1,17 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
+
+.Gallery{
+    color: #ffd368;
+}
+
+
 .image-gallery{
     background-color: #181818;
     height: auto;
     
 }
+
 .Gallerybackground{
     background-color: #242424;
     height: auto;

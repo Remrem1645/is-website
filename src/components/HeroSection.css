@@ -6,7 +6,6 @@ video {
     z-index: -1;
 }
 
-
 /* .bg{
     background: url("/public/images/1.png"), url("/public/images/2.png") center center/cover no-repeat; 
     height: 100vh;
@@ -16,9 +15,7 @@ video {
     justify-content: center;
 } */
 
-.hero-container {
-/*     background: url("/public/images/bg.png") center center/cover no-repeat; 
- */    
+.hero-container { 
     background: url("/public/images/bg.png") center center/cover no-repeat; 
     background-color: #161616;
     background-position: center;
@@ -34,11 +31,13 @@ video {
 
 }
 
+
 .hero-container>h1 {
     color: #fff;
     font-size: 90px;
     margin-top: 20px;
 }
+
 
 .hero-container>p {
     margin-top: 8px;
@@ -48,17 +47,22 @@ video {
         'Lucida Sans', Arial, sans-serif;
 }
 
+
 .hero-btns {
     margin-top: 32px;
 }
 
-.hero-btns .btn {
+
+.hero-btns,
+.btn {
     margin: 6px;
 }
+
 
 .fa-play-circle {
     margin-left: 4px;
 }
+
 
 .hero-company-name{
     text-align: center;
@@ -73,12 +77,15 @@ video {
         margin-top: -150px;
         
     }
+
+
     .logoHeroSection{
         height: 345.088px;
         width: 389.12px;
         margin-bottom: 150px;
     }
 }
+
 
 @media screen and (max-width: 400px) {
     .logoHeroSection{
@@ -102,14 +109,17 @@ video {
         margin-top: -100px;
     }
 
+
     .hero-container>p {
         font-size: 30px;
     }
+
 
     .btn-mobile {
         display: block;
         text-decoration: none;
     }
+
 
     .btn {
         width: 100%;

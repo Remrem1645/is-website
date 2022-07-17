@@ -2,6 +2,7 @@
     --primary: #ffd368;
 }
 
+
 .btn {
     overflow: hidden;
     white-space: nowrap;
@@ -13,17 +14,17 @@
     cursor: pointer;
 }
 
+
 .btn--primary {
     background-color: var(--primary);
     color: #242424;
     border: 1px solid var(--primary);
 }
 
+
 .btn--outline {
     overflow: hidden;
     white-space: nowrap;
-
-
     background-color: transparent;
     color: #ffd368;
     padding: 8px 20px;
@@ -31,19 +32,20 @@
     transition: all 0.3s ease-out;
 }
 
+
 .btn--medium {
     overflow: hidden;
     white-space: nowrap;
-
-
     padding: 8px 20px;
     font-size: 18px;
 }
+
 
 .btn--large {
     padding: 12px 26px;
     font-size: 20px;
 }
+
 
 .btn--large:hover,
 .btn--medium:hover {

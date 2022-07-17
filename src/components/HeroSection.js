@@ -7,8 +7,7 @@ function HeroSection() {
   return (
     <div className='bg'>
       <div className='hero-container'>
-        <img src='/images/logoMainPage.png' alt='' width="486.4" height="431.36" className='logoHeroSection' /> 
-        {/* <video src=''autoPlay loop muted /> */}
+        <img src='/images/logoMainPage.png' alt='' width="486.4" height="431.36" className='logoHeroSection' />
         <h1 className='hero-company-name'>IS Beauty Lash Salon</h1>
         <p>Eyelash Service</p>
         <div className='hero-btns'>

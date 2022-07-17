@@ -9,7 +9,7 @@
 .location-text{
     position: absolute;
     bottom: 0;
-    height: 40%;
+    height: 30%;
     width: 100%;
     text-align: center;
     color: #ffd368;
@@ -17,6 +17,8 @@
     line-height: 65px;
 
 }
+
+
 .location-link-para{
     color: #ffd368;
     align-items: center;
@@ -24,19 +26,22 @@
     line-height: 10mm;
 }
 
+
 .location-link{
     font-size: 45%;
     color: #ffd368;
     align-items: center;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 1rem;
     height: 100%;    
 }
 
+
 .location-link:hover{
-    border-bottom: 4px solid #ffd368;
+    border-bottom: 3px solid #ffd368;
     transition: all 0.2s ease-out;
 }
+
 
 .google-map{
     display: block;
