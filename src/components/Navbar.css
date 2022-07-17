@@ -37,7 +37,6 @@
     font-size: 1.8rem;
 }   
 
-
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(5, auto);
@@ -47,14 +46,11 @@
     width: 80vw;
     justify-content: end;
     margin-right: 1rem;
-    
 }
-
 
 .nav-item {
     height: 80px;
 }
-
 
 .nav-links {
     color: #ffd368;
@@ -65,17 +61,14 @@
     height: 100%;
 }
 
-
 .nav-links:hover {
     border-bottom: 4px solid #ffd368;
     transition: all 0.2s ease-out;
 }
 
-
 .fa-bars {
     color: #ffd368;
 }
-
 
 .nav-links-mobile,
 .menu-icon {

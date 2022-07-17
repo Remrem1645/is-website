@@ -3,7 +3,6 @@
     height: 100vh;
 }
 
-
 .menu-section {
     background-color: #242222;
     background-position: center;
@@ -12,11 +11,9 @@
     padding-bottom: 25px;
 }
 
-
 .menu-item-inactive{
     display: none;
 }
-
 
 .menu-item-active{
     font-style: italic;
@@ -24,8 +21,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
+.menu-item-active-paragraph{
+    justify-content: space-between;
+    max-width: 450px;
+    margin: 2rem auto;
+    align-items: center;
+    border-radius: 0.25rem;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    color: white;
+}
 
 .menu-title{
     min-height: 10vh;
@@ -37,7 +46,8 @@
     color: #ffd368;
 }
 
-.menu-section>h3{
+
+.menu-category-items>h3{
     font-size: 35px;
     color: #ffd368;
 }

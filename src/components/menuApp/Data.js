@@ -104,7 +104,7 @@ const menu = [
     },
     {
         id: 17,
-        title: 'lips',
+        title: 'Lips',
         category: 'Waxing',
         price: '10'
     },
@@ -113,7 +113,7 @@ const menu = [
     //Refill
     {
         id: 18,
-        title: 'Classic *NO REFIILL AFTER TWO WEEKS',
+        title: 'Classic *NO REFIILL AFTER TWO WEEKS*',
         category: 'Refill',
         price: '20'
     },

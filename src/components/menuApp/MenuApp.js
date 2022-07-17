@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Menu from './Menu'
 import Categories from './Categories'
 import data from './Data'
+import desginerStyleDescription from './DesginerStyleDescription'
 import './MenuApp.css'
 
 const allCategories = ["all", ...new Set(data.map((data) => data.category))];
@@ -25,40 +26,48 @@ function MenuApp() {
     return (
         <main className='menu'>
             <section className='menu-section'>
-                <div className='menu-title'>
-                    <h2>Menu List</h2>
-                    <div className="menu-underline"></div>
-                </div>
                 <Categories
                     className='menu-category'
                     categories={categories}
                     activeCategory={activeCategory}
                     filterItems={filterItems}
                 />
-                <h3 className={`${(activeCategory === 'Full Set' || activeCategory === 'all') ? 'menu-item-active' : 'menu-item-inactive'}`}>
-                    Full Set
-                </h3>
-                <Menu items={menuItems.filter((data) => data.category === 'Full Set')} />
-
-                <h3 className={`${(activeCategory === 'Designer Style' || activeCategory === 'all') ? 'menu-item-active' : 'menu-item-inactive'}`}>
-                    Designer Style
-                </h3>
-                <Menu items={menuItems.filter((data) => data.category === 'Designer Style')} />
-
-                <h3 className={`${(activeCategory === 'Waxing' || activeCategory === 'all') ? 'menu-item-active' : 'menu-item-inactive'}`}>
-                    Waxing
-                </h3>
-                <Menu items={menuItems.filter((data) => data.category === 'Waxing')} />
-
-                <h3 className={`${(activeCategory === 'Refill' || activeCategory === 'all') ? 'menu-item-active' : 'menu-item-inactive'}`}>
-                    Refill
-                </h3>
-                <Menu items={menuItems.filter((data) => data.category === 'Refill')} />
-
-                <h3 className={`${(activeCategory === 'Refill By Weeks' || activeCategory === 'all') ? 'menu-item-active' : 'menu-item-inactive'}`}>
-                    Refill By Weeks
-                </h3>
-                <Menu items={menuItems.filter((data) => data.category === 'Refill By Weeks')} />
+                <div className='menu-category-items'>
+                    <h3 className={`${(activeCategory === 'Full Set' || activeCategory === 'all') ? 'menu-item-active' : 'menu-item-inactive'}`}>
+                        Full Set
+                    </h3>
+                    <Menu items={menuItems.filter((data) => data.category === 'Full Set')} />
+                </div>
+                <div className='menu-category-items'>
+                    <h3 className={`${(activeCategory === 'Designer Style' || activeCategory === 'all') ? 'menu-item-active' : 'menu-item-inactive'}`}>
+                        Designer Style
+                    </h3>
+                    <p className={`${(activeCategory === 'Designer Style' || activeCategory === 'all') ? 'menu-item-active-paragraph' : 'menu-item-inactive'}`}>
+                        {desginerStyleDescription[0]}
+                    </p>
+                    <p className={`${(activeCategory === 'Designer Style' || activeCategory === 'all') ? 'menu-item-active-paragraph' : 'menu-item-inactive'}`}>
+                        {desginerStyleDescription[1]}
+                    </p>
+                    <Menu items={menuItems.filter((data) => data.category === 'Designer Style')} />
+                </div>
+                <div className='menu-category-items'>
+                    <h3 className={`${(activeCategory === 'Waxing' || activeCategory === 'all') ? 'menu-item-active' : 'menu-item-inactive'}`}>
+                        Waxing
+                    </h3>
+                    <Menu items={menuItems.filter((data) => data.category === 'Waxing')} />
+                </div>
+                <div className='menu-category-items'>
+                    <h3 className={`${(activeCategory === 'Refill' || activeCategory === 'all') ? 'menu-item-active' : 'menu-item-inactive'}`}>
+                        Refill
+                    </h3>
+                    <Menu items={menuItems.filter((data) => data.category === 'Refill')} />
+                </div>
+                <div className='menu-category-items'>
+                    <h3 className={`${(activeCategory === 'Refill By Weeks' || activeCategory === 'all') ? 'menu-item-active' : 'menu-item-inactive'}`}>
+                        Refill By Weeks
+                    </h3>
+                    <Menu items={menuItems.filter((data) => data.category === 'Refill By Weeks')} />
+                </div>
             </section>
         </main>
     )

@@ -5,7 +5,6 @@
     font-family: 'Arial', sans-serif;
 }
 
-
 .location-text{
     position: absolute;
     bottom: 0;
@@ -18,14 +17,12 @@
 
 }
 
-
 .location-link-para{
     color: #ffd368;
     align-items: center;
     height: 100%;    
     line-height: 10mm;
 }
-
 
 .location-link{
     font-size: 45%;
@@ -41,7 +38,6 @@
     border-bottom: 3px solid #ffd368;
     transition: all 0.2s ease-out;
 }
-
 
 .google-map{
     display: block;
