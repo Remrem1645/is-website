@@ -33,10 +33,10 @@
 /*  background-image: url('/public/images/2.jpg');
   background-position: center; */
   background-color: #242222;
-  background-size: auto;
+  background-size: 110vh;
   color: rgb(0, 0, 0);
   font-size: 100px;
-  height: 100vh;
+  height: 110vh;
 }
 
 .Contact {

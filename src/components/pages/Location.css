@@ -17,6 +17,14 @@
 
 }
 
+@media screen and (max-width: 300px) {
+    .location-text{
+        font-size: 30px;
+    }
+
+}
+
+
 .location-link-para{
     color: #ffd368;
     align-items: center;
