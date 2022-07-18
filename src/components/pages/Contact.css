@@ -1,0 +1,47 @@
+.contact-page{
+    background-color: #242222;
+}
+
+.contact-page-title{
+    color: #ffd368;
+    font-size: 70px;
+    text-align: center;
+    align-items: center;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-page-phonenum{
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.contact-page-hours{
+    color: #ffffff;
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 750px) {
+    .contact-page-hours{
+        font-size: 20px;
+    }
+    .contact-page-phonenum{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contact-page-title{
+        font-size: 40px;
+    }
+    .contact-page-hours,
+    .contact-page-phonenum{
+        font-size: 15px;
+    }
+}
+
