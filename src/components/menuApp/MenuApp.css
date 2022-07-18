@@ -34,6 +34,9 @@
     flex-direction: column;
     display: flex;
     color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 
 .menu-title{
