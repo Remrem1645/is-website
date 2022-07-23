@@ -61,7 +61,6 @@ const menu = [
         price: '160'
     },    
     
-    
     //Designer Style
     {
         id: 11,
@@ -94,7 +93,6 @@ const menu = [
         price: '120'
     },
     
-    
     //Waxing
     {
         id: 16,
@@ -108,7 +106,6 @@ const menu = [
         category: 'Waxing',
         price: '10'
     },
-   
    
     //Refill
     {
@@ -165,7 +162,6 @@ const menu = [
         category: 'Refill',
         price: '85'
     },
-
     
     //Refill By Weeks
     {
