@@ -4,7 +4,7 @@ const menu = [
         id: 1,
         title: 'Classic',
         category: 'Full Set',
-        price: '80'
+        price: '80',
     },
     {
         id: 2,

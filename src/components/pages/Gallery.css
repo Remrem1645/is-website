@@ -1,13 +1,15 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
 .Gallery{
-    color: #ffd368;
+    color: #ffd368;   
 }
 
 .image-gallery{
     background-color: #181818;
     height: auto;
-    
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .Gallerybackground{
@@ -16,3 +18,12 @@
 }
 
 
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}

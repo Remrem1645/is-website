@@ -6,18 +6,8 @@ video {
     z-index: -1;
 }
 
-/* .bg{
-    background: url("/public/images/1.png"), url("/public/images/2.png") center center/cover no-repeat; 
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
 .hero-container { 
     background: url("/public/images/bg.png") center center/cover no-repeat; 
-    background-color: #161616;
     background-position: center;
     height: 100vh;
     width: 100%;
@@ -28,7 +18,6 @@ video {
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.65);
     object-fit: contain;
     text-shadow: 2px 2px black;
-
 }
 
 
@@ -45,6 +34,9 @@ video {
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
         'Lucida Sans', Arial, sans-serif;
+        animation: fadeInAnimation ease 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
 }
 
 
@@ -55,6 +47,9 @@ video {
 .hero-btns,
 .btn {
     margin: 6px;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .fa-play-circle {
@@ -64,8 +59,16 @@ video {
 .hero-company-name{
     text-align: center;
     word-spacing: 10px;
-/*     font-family: 'Smooch', cursive;
- */}
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.logoHeroSection{
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
 
 @media screen and (max-width: 960px) {
     .hero-container>h1 {
@@ -113,4 +116,14 @@ video {
     .btn {
         width: 100%;
     }
+}
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }

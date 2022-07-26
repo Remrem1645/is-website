@@ -3,10 +3,14 @@
     margin-bottom: 4rem;
     display: flex;
     justify-content: center;
+    transition: all 0.3s linear;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .filter-btn {
-    background: transparent;
+    background: transparent;    
     border-color: transparent;
     font-size: 1rem;
     text-transform: capitalize;
@@ -29,16 +33,28 @@
 .active {
     background: #ffd368;
     color: #242424;
+    transition: all 0.3s linear;
 }
 
 @media screen and (max-width: 960px) {
     .filter-btn {
         padding: 0 0;
+        transition: all 0.3s linear;
     }
 }
 
 @media screen and (max-width: 400px) {
     .filter-btn {
         display: none;
+        transition: all 0.3s linear;
     }
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }

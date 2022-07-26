@@ -1,9 +1,14 @@
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
 }
+ */
+
+.locations{
+    background-color: #242222;
+ }
 
 .location-text{
     position: absolute;
@@ -14,6 +19,9 @@
     color: #ffd368;
     font-size: 55%;
     line-height: 65px;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 
 }
 
@@ -21,7 +29,6 @@
     .location-text{
         font-size: 30px;
     }
-
 }
 
 
@@ -55,4 +62,16 @@
     display: block;
     height: 90%;
     width: 100%;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }

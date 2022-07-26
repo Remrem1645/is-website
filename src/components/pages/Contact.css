@@ -10,6 +10,9 @@
     margin: 2rem auto;
     display: flex;
     justify-content: space-between;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .contact-page-phonenum{
@@ -17,6 +20,9 @@
     font-size: 50px;
     text-align: center;
     align-items: center;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .contact-page-hours{
@@ -24,6 +30,9 @@
     font-size: 35px;
     text-align: center;
     align-items: center;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 @media screen and (max-width: 750px) {
@@ -45,3 +54,11 @@
     }
 }
 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}

@@ -3,7 +3,6 @@ import '../../App.css'
 import '../pages/Gallery.css'
 import ImageGallery from 'react-image-gallery'
 
-
 const images = [
     {
         original: 'https://s3-media0.fl.yelpcdn.com/bphoto/-KzsSeqVLb7WCwY8jVsDDA/o.jpg',
@@ -21,9 +20,6 @@ const images = [
         original: 'https://s3-media0.fl.yelpcdn.com/bphoto/X37uoSmVcYf8hsif8E80wA/o.jpg',
     },
     {
-        original: 'https://s3-media0.fl.yelpcdn.com/bphoto/9Lms3cHOpn5Iotm8usEeNw/o.jpg',
-    },
-    {
         original: 'https://s3-media0.fl.yelpcdn.com/bphoto/4bA2HJ-FAKYv0OKfYP7ODw/o.jpg',
     },
     {
@@ -39,8 +35,6 @@ const images = [
         original: 'https://s3-media0.fl.yelpcdn.com/bphoto/VW08v_JV-9KV10lB3dky5Q/o.jpg',
     },
 ];
-
-
 
 function Gallery() {
     return (

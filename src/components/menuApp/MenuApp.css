@@ -1,6 +1,7 @@
 .menu{
     background-color: #242222;
     height: 100vh;
+    
 }
 
 .menu-section {
@@ -9,10 +10,15 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 25px;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
 }
 
 .menu-item-inactive{
     display: none;
+    
 }
 
 .menu-item-active{
@@ -21,6 +27,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
     
 }
 
@@ -36,6 +45,9 @@
     color: white;
     padding-left: 20px;
     padding-right: 20px;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 
 }
 
@@ -47,10 +59,22 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: #ffd368;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 
 .menu-category-items>h3{
     font-size: 35px;
     color: #ffd368;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
