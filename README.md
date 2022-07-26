@@ -1,5 +1,5 @@
 <div align = "center">
-    <img logo = "" src="https://www.isbeautylashsalon.com/images/logoMainPage.png" width="200" height="165">
+    <img logo = "" src="https://www.isbeautylashsalon.com/images/logoMainPage.png" width="190" height="165">
     <h1><b>IS Beauty Salon Website</b></h1>
 </div>
 
