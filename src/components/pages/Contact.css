@@ -1,41 +1,175 @@
 .contact-page{
     background-color: #242222;
+    height: 115vh;
+    justify-content: flex-end;
+    position: relative;
+
+}
+
+.contact-us-text{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;  
+    color: #ffd368;
+    padding-top:3vh;
+    word-wrap: break-word;
+    position: relative;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.contact-page>h2{
+    font-size: 4.50rem;
+}
+
+.contact-page>p{
+    color: #eeeeee;
+    font-size: 2.5rem;
+    margin-top: -25px;
+    padding-bottom: 50px;
+}
+
+.google-maps-wrap{
+    box-sizing: border-box;
+    height: 500px;
+    margin-top: 675px;
+    margin-bottom: 0;
+    color: #111111;
+    background-color: #eeeeee;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.emded-responsive{
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.emded-responsive-item{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+.contact-page-info{
+    width: 720px;
+    margin-bottom: 295px;
+    box-sizing: border-box;
+    display: block;
+    color: #ffffff;
+    display: flex;
+    gap: 16px;
+    position: relative;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.contact-page-blocks{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    margin-right: 1rem;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.blocks-1{
+    margin: -1200px auto auto auto;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 1;
+}
+
+.contact-page-hours{
+    margin: auto auto auto auto;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .contact-page-title{
     color: #ffd368;
-    font-size: 70px;
+    font-size: 45px;
     text-align: center;
     align-items: center;
-    margin: 2rem auto;
-    display: flex;
+    margin: -925px auto auto auto;
+    display: block;
     justify-content: space-between;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
-.contact-page-phonenum{
-    color: #ffffff;
-    font-size: 50px;
+.location-link-para{
+    margin: auto auto 400px auto;
+    list-style: none;
     text-align: center;
+    justify-content: center;
     align-items: center;
+    color: #ffd368;
+    font-size: 80px;
+    height: 100%;    
+    line-height: 10mm;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
-.contact-page-hours{
-    color: #ffffff;
-    font-size: 35px;
-    text-align: center;
+.location-link{
+    font-size: 45%;
+    color: #ffd368;
     align-items: center;
-    animation: fadeInAnimation ease 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    text-decoration: none;
+    padding: 0.3rem 1rem;
+    height: 100%;    
 }
+
+
+.location-link:hover{
+    border-bottom: 3px solid #ffd368;
+    transition: all 0.2s ease-out;
+}
+
 
 @media screen and (max-width: 750px) {
+    .contact-page>h2{
+        font-size: 40px;
+    }
+    .contact-page>p{
+        font-size: 20px;
+    }
     .contact-page-hours{
         font-size: 20px;
     }
@@ -45,12 +179,20 @@
 }
 
 @media screen and (max-width: 400px) {
+    .contact-us-text,
     .contact-page-title{
         font-size: 40px;
     }
     .contact-page-hours,
     .contact-page-phonenum{
         font-size: 15px;
+    }
+    .blocks-1{
+        height: 175px;
+        width: 125px;
+    }
+    .location-link-para{
+        font-size: 40px;
     }
 }
 

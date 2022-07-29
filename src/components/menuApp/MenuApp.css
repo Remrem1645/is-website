@@ -10,7 +10,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 25px;
-    animation: fadeInAnimation ease 2s;
+    animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     
@@ -18,6 +18,9 @@
 
 .menu-item-inactive{
     display: none;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
     
 }
 
@@ -27,10 +30,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: fadeInAnimation ease 2s;
+    animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    
 }
 
 .menu-item-active-paragraph{
@@ -45,7 +47,7 @@
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-    animation: fadeInAnimation ease 2s;
+    animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 
@@ -59,7 +61,7 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: #ffd368;
-    animation: fadeInAnimation ease 2s;
+    animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }

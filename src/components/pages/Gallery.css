@@ -14,10 +14,8 @@
 
 .Gallerybackground{
     background-color: #242424;
-    height: 100vh;
+    height: 95vh;
 }
-
-
 
 @keyframes fadeInAnimation {
     0% {

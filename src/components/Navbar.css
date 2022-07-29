@@ -50,6 +50,9 @@
 
 .nav-item {
     height: 80px;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .nav-links {
@@ -167,4 +170,13 @@
         color: #242424;
         transition: 250ms;
     }
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }

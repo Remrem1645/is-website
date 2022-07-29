@@ -22,9 +22,9 @@ function HeroSection() {
             className='btns'
             buttonStyle='btn--outline'
             buttonSize='btn--large'
-            redirect='/locations'
+            redirect='/services'
           >
-            LOCATION
+            MENU
           </Button>
         </div>
       </div>
