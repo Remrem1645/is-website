@@ -1,6 +1,6 @@
 .contact-page{
     background-color: #242222;
-    height: 115vh;
+    height: 110vh;
     justify-content: flex-end;
     position: relative;
 
@@ -160,6 +160,18 @@
 .location-link:hover{
     border-bottom: 3px solid #ffd368;
     transition: all 0.2s ease-out;
+}
+
+@media screen and (max-height: 800px) {
+    .contact-page{
+        height: 125vh;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .contact-page{
+        height: 300vh;
+    }
 }
 
 
